@@ -98,40 +98,68 @@ h4 {
 
 /*--------------------------------------------Heading*/
 
+.opaque-overlay {
+    position: relative;
+    margin:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
 header {
     margin: 0;
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .logo {
-    background: url("../images/para-logo.jpg");
-    background-position: center;
+    background: url("../images/paragood.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
+    min-height: 340px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
 
+.quote-title {
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    color: #fff;
+}
+
+.quote-poet {
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    color: #fff;
+    margin-left: 500px;
+}
+
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
-    margin-top: 50px;
+    font-weight: 500;
+    font-size: 72px;
+    margin-top: 100px;
     color: #fff;
+    text-shadow:5px 5px 10px rgb(29, 28, 28);
 }
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
-    margin-top: 20px;
-    margin-bottom: 90px;
+    font-weight: 400;
+    font-size: 48px;
+    letter-spacing: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     color: #fff;
+    text-shadow:5px 5px 10px rgb(8, 8, 8);
 }
 
 .list-inline-item:not(:last-child) {
