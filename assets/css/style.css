@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700|Jura:300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
 
@@ -23,15 +23,15 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #6682a7;
 }
 
 .ui-menu-color-classes {
-    background-color: #9b59b6;
+    background-color: #609154;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    background-color: #ac517e;
 }
 
 .row-table {
@@ -94,26 +94,13 @@ h4 {
 
 /*--------------------------------------------Heading*/
 
-.opaque-overlay {
-    position: relative;
-    margin:0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
 header {
     margin: 0;
 }
 
-.heading {
-    margin-left: 10px;
-}
-
-
 .logo {
     background: url("../images/paragood2.jpg");
-    background-position: bottom;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 340px;
@@ -124,13 +111,13 @@ header {
 
 .quote {
     font-style: italic;
-    font-family: "Roboto", sans-serif;
+    font-family: "Jura", sans-serif;
     font-weight: 400;
     font-size: 28px;
     color: #fff;
     text-shadow:5px 5px 10px rgb(12, 12, 12);
     text-align: right;    
-    padding-right: 15px;
+    padding-right: 25px;
     padding-bottom: 15px;
 }
 
@@ -139,18 +126,20 @@ header {
     font-weight: 500;
     font-size: 72px;
     margin-top: 100px;
-    color: #fff;
+    color: rgb(207, 206, 206);
     text-shadow:5px 5px 10px rgb(8, 8, 8);
+    letter-spacing: 5px;
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Jura", sans-serif;
     font-weight: 400;
     font-size: 48px;
     letter-spacing: 5px;
-    margin-top: 50px;
-    margin-bottom: 15px;
-    color: #fff;
+    text-align: bottom left;
+    margin-top: 15px;
+    /*margin-bottom: 35px;*/
+    color: rgb(207, 206, 206);
     text-shadow:5px 5px 10px rgb(8, 8, 8);
 }
 
@@ -185,10 +174,10 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 20px;
     display: block;
     color: #fafafa;
-    font-size: 26px;
+    font-size: 32px;
 }
 
 .menuitem span {
@@ -197,9 +186,9 @@ header {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 24px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 5px;
 }
 
 /*--------------------------------------------Hover.css*/
@@ -411,14 +400,46 @@ button[type="submit"] {
 
 @media(max-width: 420px) {
     .logo {
-    background: url("../images/paragood.jpg");
+    background: url("../images/para-small.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 120%;
     min-height: 340px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    }
+    .quote {
+    font-style: italic;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+    text-shadow:5px 5px 10px rgb(247, 6, 6);
+    text-align: center;    
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
-        }
+
+    .name {
+        font-family: "Exo", sans-serif;
+        font-weight: 500;
+        font-size: 72px;
+        margin-top: 30px;
+        color:rgb(133, 42, 72);
+        text-shadow:5px 5px 10px rgb(8, 8, 8);
+        text-align: center; 
+    }
+
+    .title {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 48px;
+        letter-spacing: 5px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: rgb(133, 42, 72);
+        text-shadow:5px 5px 10px rgb(8, 8, 8);
+        text-align: center; 
+    }
 }
