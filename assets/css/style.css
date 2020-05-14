@@ -34,8 +34,6 @@
     background-color: #3498db;
 }
 
-
-
 .row-table {
     display: table;
 }
@@ -112,8 +110,9 @@ header {
     margin-left: 10px;
 }
 
+
 .logo {
-    background: url("../images/paragood.jpg");
+    background: url("../images/paragood2.jpg");
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,10 +125,10 @@ header {
 .quote {
     font-style: italic;
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 28px;
     color: #fff;
-    text-shadow:5px 5px 10px rgb(8, 8, 8);
+    text-shadow:5px 5px 10px rgb(12, 12, 12);
     text-align: right;    
     padding-right: 15px;
     padding-bottom: 15px;
@@ -408,4 +407,18 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+@media(max-width: 420px) {
+    .logo {
+    background: url("../images/paragood.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 340px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+        }
 }
