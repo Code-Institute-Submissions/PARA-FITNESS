@@ -26,7 +26,7 @@
     background-color: #e67e22;
 }
 
-.ui-menu-color-resume {
+.ui-menu-color-classes {
     background-color: #9b59b6;
 }
 
@@ -34,9 +34,7 @@
     background-color: #3498db;
 }
 
-.ui-menu-color-download {
-    background-color: #525252;
-}
+
 
 .row-table {
     display: table;
@@ -125,21 +123,16 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
-.quote-title {
+.quote {
     font-style: italic;
     font-family: "Roboto", sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     font-size: 28px;
     color: #fff;
-}
-
-.quote-poet {
-    font-style: italic;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    font-size: 24px;
-    color: #fff;
-    margin-left: 500px;
+    text-shadow:5px 5px 10px rgb(8, 8, 8);
+    text-align: right;    
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 .name {
@@ -148,7 +141,7 @@ header {
     font-size: 72px;
     margin-top: 100px;
     color: #fff;
-    text-shadow:5px 5px 10px rgb(29, 28, 28);
+    text-shadow:5px 5px 10px rgb(8, 8, 8);
 }
 
 .title {
@@ -157,7 +150,7 @@ header {
     font-size: 48px;
     letter-spacing: 5px;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
     color: #fff;
     text-shadow:5px 5px 10px rgb(8, 8, 8);
 }
