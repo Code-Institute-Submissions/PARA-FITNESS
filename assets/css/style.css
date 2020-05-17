@@ -2,20 +2,12 @@
 
 /*--------------------------------------------Colors*/
 
-.bg-color-name-title {
-    background-color: #676767;
-}
-
-.bg-color-three-reasons {
-    background-color: #fff;
-}
-
-.bg-color-personal-info {
+.bg-color-home {
     background-color: #f4f4f4;
 }
 
-.bg-color-work-history {
-    background-color: #9b59b6;
+.bg-color-classes {
+    background-color: #f4f4f4;
 }
 
 .bg-color-contact {
@@ -23,7 +15,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #6682a7;
+    background-color: rgb(199, 103, 116);
 }
 
 .ui-menu-color-classes {
@@ -31,17 +23,11 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #ac517e;
+    background-color: #5d75a8;
 }
 
 .row-table {
     display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
 }
 
 .section-heading {
@@ -80,22 +66,45 @@ h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
     float: none;
 }
 
-.history-heading,
+.section-column p {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    color: black;
+    text-align: center;
+    padding-right: 25px;
+}
+
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
+    font-size: 48px;
+    margin-top: 20px;
     margin-bottom: 40px;
+    text-align: center;
+    text-shadow: 0 0 2px #f4f4f4, 0 0 3px rgb(10, 10, 10);
 }
 
 /*--------------------------------------------Heading*/
 
 header {
     margin: 0;
+}
+
+.getfit {
+    font-family: "Exo", sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+    color: #fff;
+    text-shadow: 0 0 5px #f4f4f4, 0 0 6px rgb(10, 10, 10);
+    text-align: right;
+    padding-right: 25px;
 }
 
 .logo {
@@ -115,19 +124,19 @@ header {
     font-weight: 400;
     font-size: 28px;
     color: #fff;
-    text-shadow:5px 5px 10px rgb(12, 12, 12);
+    text-shadow: 0 0 5px #f4f4f4, 0 0 6px rgb(10, 10, 10);
     text-align: right;    
     padding-right: 25px;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 72px;
     margin-top: 100px;
     color: rgb(207, 206, 206);
-    text-shadow:5px 5px 10px rgb(8, 8, 8);
+    text-shadow: 0 0 5px #f4f4f4, 0 0 6px rgb(10, 10, 10);
     letter-spacing: 5px;
 }
 
@@ -137,11 +146,12 @@ header {
     font-size: 48px;
     letter-spacing: 5px;
     text-align: bottom left;
-    margin-top: 15px;
-    /*margin-bottom: 35px;*/
+    /*margin-top: 15px;*/
     color: rgb(207, 206, 206);
-    text-shadow:5px 5px 10px rgb(8, 8, 8);
+    text-shadow: 0 0 5px #f4f4f4, 0 0 4px rgb(10, 10, 10);
 }
+
+/*--------------------------------------------Menu */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -161,7 +171,7 @@ header {
 }
 
 .menuitem {
-    height: 120px;
+    height: 90px;
     text-align: center;
     padding: 0;
 }
@@ -174,7 +184,7 @@ header {
 }
 
 .menuitem a i {
-    padding-top: 20px;
+    padding-top: 10px;
     display: block;
     color: #fafafa;
     font-size: 32px;
@@ -195,7 +205,8 @@ header {
 
 .hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+    height: 90px;
+    color: orange;
 }
 
 /* ----------------------------------------Footer */
@@ -250,119 +261,15 @@ footer {
     padding: 20px;
 }
 
-/* ----------------------------------------Three Reasons */
+/* ----------------------------------------3 Classes */
 
-.three-reasons-icon {
+.three-classes-icon {
     font-size: 26px;
     color: #e67e22;
 }
 
-.three-reasons-heading {
+.three-classes-heading {
     margin-bottom: 15px;
-}
-
-/* ----------------------------------------Personal Info */
-
-.personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-}
-
-.personal-info-item .key,
-.personal-info-item .value {
-    padding-right: 8px;
-    display: inline-block;
-}
-
-.personal-info-item .key p,
-.personal-info-item .value p {
-    margin: 0;
-}
-
-.personal-info-item .key {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-}
-
-.personal-info-item .key p {
-    font-weight: 700;
-}
-
-.personal-info-item .value {
-    position: relative;
-    width: 60%;
-}
-
-/* ----------------------------------------Skills */
-
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress-section {
-    margin: 40px 20px;
-}
-
-/* ----------------------------------------Work History */
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-items {
-    margin-bottom: 30px;
 }
 
 /* ----------------------------------------Contact Form */
@@ -400,25 +307,31 @@ button[type="submit"] {
 
 @media(max-width: 420px) {
     .logo {
-    background: url("../images/para-small.jpg");
-    background-position: bottom;
+    background: url("../images/parasmall2.jpg");
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: 100% 120%;
+    background-size: 120% 50%;
     min-height: 340px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
     }
+
     .quote {
     font-style: italic;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    font-family: "Jura", sans-serif;
+    font-weight: 700;
     font-size: 28px;
-    color: #fff;
-    text-shadow:5px 5px 10px rgb(247, 6, 6);
+    color: #7c0547;
+    text-shadow: 0 0 3px #7c0547, 0 0 5px rgb(10, 10, 10);
     text-align: center;    
     padding-right: 15px;
     padding-bottom: 15px;
+}
+
+.getfit {
+    display: none;
 }
 
     .name {
@@ -427,19 +340,19 @@ button[type="submit"] {
         font-size: 72px;
         margin-top: 30px;
         color:rgb(133, 42, 72);
-        text-shadow:5px 5px 10px rgb(8, 8, 8);
+        text-shadow: 0 0 3px #f4f4f4, 0 0 5px rgb(10, 10, 10);
         text-align: center; 
     }
 
     .title {
-        font-family: "Roboto", sans-serif;
-        font-weight: 400;
+        font-family: "Jura", sans-serif;
+        font-weight: 800;
         font-size: 48px;
         letter-spacing: 5px;
         margin-top: 10px;
         margin-bottom: 15px;
         color: rgb(133, 42, 72);
-        text-shadow:5px 5px 10px rgb(8, 8, 8);
+        text-shadow: 0 0 5px #f4f4f4, 0 0 4px rgb(10, 10, 10);
         text-align: center; 
     }
 }
