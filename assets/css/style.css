@@ -26,9 +26,9 @@
     background-color: #5d75a8;
 }
 
-.row-table {
+/*.row-table {
     display: table;
-}
+}*/
 
 .section-heading {
     font-family: "Exo", sans-serif;
@@ -60,9 +60,9 @@ h4 {
     display: inline-block;
 }
 
-.row-table {
+/*.row-table {
     display: table;
-}
+}*/
 
 .section-column {
     display: block;
@@ -180,9 +180,8 @@ header {
     padding: 0;
 }
 
-.menuitem,
 .menuitem a,
-.menuitem a i:hover {
+.menuitem i:hover {
     color: orange;
 }
 
@@ -228,23 +227,13 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
-    font-size: 18px;
-    color: #fafafa;
-    text-align: center;
-    padding-left: 5px;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.cv-pdf i:hover {
-    color: #e84610;
-}
-
 .social-links {
     padding-bottom: 15px;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
 }
 
 .social-links li a i {
@@ -252,8 +241,8 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
+    font-size: 18px;
+    line-height: 10px;
     text-align: center;
     color: #fafafa;
     background: #8f8f8f;
@@ -264,7 +253,7 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    background: rgb(248, 3, 3);
 }
 
 #footer-details {
