@@ -26,10 +26,6 @@
     background-color: #5d75a8;
 }
 
-/*.row-table {
-    display: table;
-}*/
-
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -37,7 +33,21 @@
     margin-bottom: 40px;
 }
 
+.price {
+    font-family: Jura;
+    font-size: 48px;
+    color:rgb(248, 3, 3);
+    font-weight: 500;
+    text-shadow: 0 0 6px rgb(8, 8, 8), 0 0 7px rgb(253, 144, 2);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
 /* ----------------------------------------Special paddings/margins/text */
+
+.col p {
+    margin-bottom: 0;
+}
 
 h1,
 h2,
@@ -60,6 +70,10 @@ h4 {
     display: inline-block;
 }
 
+.container-fuid .row{
+    margin: 0;
+}
+
 .section-column {
     display: block;
     padding-left: 100px;
@@ -74,7 +88,8 @@ h4 {
     font-size: 28px;
     color: black;
     text-align: center;
-    padding-right: 25px;
+    padding-right: 25;
+    padding-bottom: 30px;
 }
 
 .section-heading {
@@ -205,24 +220,6 @@ header {
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 8px;
-}
-
-/*--------------------------------------------SignUp*/
-
-.bmt {
-    display: block;
-    padding-left: 100px;
-    padding-top: 20px;
-    padding-right: 100px;
-    float: none;
-}
-
-.pt {
-
-}
-
-.nutrition {
-
 }
 
 /*--------------------------------------------Hover.css*/
