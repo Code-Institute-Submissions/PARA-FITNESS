@@ -60,10 +60,6 @@ h4 {
     display: inline-block;
 }
 
-/*.row-table {
-    display: table;
-}*/
-
 .section-column {
     display: block;
     padding-left: 100px;
@@ -209,6 +205,24 @@ header {
     font-size: 24px;
     font-weight: 300;
     letter-spacing: 8px;
+}
+
+/*--------------------------------------------SignUp*/
+
+.bmt {
+    display: block;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    float: none;
+}
+
+.pt {
+
+}
+
+.nutrition {
+
 }
 
 /*--------------------------------------------Hover.css*/
