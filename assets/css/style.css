@@ -70,10 +70,6 @@ h4 {
     display: inline-block;
 }
 
-/*.container-fluid .row{
-    margin: 0;
-}*/
-
 .section-column {
     display: block;
     padding-left: 100px;
@@ -103,12 +99,6 @@ h4 {
 }
 
 /*--------------------------------------------Heading*/
-
-/*header {
-    margin: 0;
-    padding: 0;
-}*/
-
 
 .logo {
     background: url("../images/paragood2.jpg");
@@ -284,6 +274,8 @@ h5 {
 }
 
 .bmt-training {
+    left: 10%;
+    max-width: 80%;
     background-color: rgb(227, 232, 250); 
     border: 1px solid; 
     border-radius: 5px; 
@@ -293,6 +285,8 @@ h5 {
 }
 
 .personal-training {
+    left: 10%;
+    max-width: 80%;
     background-color: rgb(211, 247, 202);
     border: 1px solid;
     margin: 5px;
@@ -301,6 +295,8 @@ h5 {
 }
 
 .nutrition {
+    left: 10%;
+    max-width: 80%;
     background-color: rgb(255, 225, 216);
     border: 1px solid;
     margin: 5px;
