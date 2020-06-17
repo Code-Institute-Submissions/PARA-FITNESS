@@ -70,9 +70,9 @@ h4 {
     display: inline-block;
 }
 
-.container-fluid .row{
+/*.container-fluid .row{
     margin: 0;
-}
+}*/
 
 .section-column {
     display: block;
@@ -104,10 +104,10 @@ h4 {
 
 /*--------------------------------------------Heading*/
 
-header {
+/*header {
     margin: 0;
     padding: 0;
-}
+}*/
 
 
 .logo {
@@ -273,14 +273,6 @@ h5 {
 }
 
 /* ----------------------------------------3 Classes */
-
-.col-12 {
-    margin: 0;
-}
-
-.row {
-    margin: 0;
-}
 
 .about-services-icon {
     font-size: 26px;
