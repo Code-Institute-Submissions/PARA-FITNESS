@@ -98,6 +98,8 @@ h4 {
     text-shadow: 0 0 2px #f4f4f4, 0 0 5px rgb(10, 10, 10);
 }
 
+
+
 /*--------------------------------------------Heading*/
 
 .logo {
@@ -110,17 +112,6 @@ h4 {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
-.getfit {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 38px;
-    color: #f4f4f4;
-    text-align: right;
-    text-shadow: 0 0 6px rgb(8, 8, 8), 0 0 7px rgb(253, 144, 2);
-    padding-right: 5px;
-}
-
 
 .quote {
     font-style: italic;
@@ -190,7 +181,7 @@ h4 {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 120px;
+    height: 90px;
 }
 
 .menuitem a i {
@@ -281,7 +272,6 @@ h5 {
     border-radius: 5px; 
     margin: 5px; 
     box-shadow: 4px 6px 30px 1px rgba(97,94,97,1);
-    vertical-align: 
 }
 
 .personal-training {
@@ -319,6 +309,15 @@ button[type="submit"] {
 
 /* ----------------------------------------Contact*/
 
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0 0 2px #f4f4f4, 0 0 5px rgb(10, 10, 10);
+    margin: 30px 0;
+}
+
 .contact-container {
     background-color: #dddada;
     padding: 0 100px;
@@ -330,9 +329,9 @@ button[type="submit"] {
     border-radius: 180px;
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px;
-    background-color: #fafafa;
     display: inline-block;
     margin: 50px auto;
+    background-color: rgb(199, 103, 116);
 }
 
 .contact-email {
@@ -341,7 +340,7 @@ button[type="submit"] {
     border-radius: 180px;
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px;
-    background-color: #fafafa;
+    background-color: #609154;
     display: inline-block;
     margin: 50px auto;
 }
@@ -352,11 +351,46 @@ button[type="submit"] {
     border-radius: 180px;
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px;
-    background-color: #fafafa;
+    background-color: #5d75a8;
     display: inline-block;
     margin: 50px auto;
 }
 
+.contact-skype:hover {
+    max-width: 360px;
+    height: 360px;
+    border-radius: 180px;
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    background-color: darkened;
+    display: inline-block;
+    margin: 50px auto;
+    border:solid 3px #e84610;
+}
+
+.contact-phone:hover {
+    max-width: 360px;
+    height: 360px;
+    border-radius: 180px;
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    background-color: #fafafa;
+    display: inline-block;
+    margin: 50px auto;
+    border:solid 3px #e84610;
+}
+
+.contact-email:hover {
+    max-width: 360px;
+    height: 360px;
+    border-radius: 180px;
+    -moz-border-radius: 180px;
+    -webkit-border-radius: 180px;
+    background-color: #fafafa;
+    display: inline-block;
+    margin: 50px auto;
+    border:solid 3px #e84610;
+}
 
 /* ----------------------------------------Media Queries */
 
