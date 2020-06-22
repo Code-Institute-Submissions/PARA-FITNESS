@@ -332,6 +332,11 @@ button[type="submit"] {
     display: inline-block;
     margin: 50px auto;
     background-color: rgb(199, 103, 116);
+    text-align: center;
+    padding-top: 60px;
+    color: #f1eeee;
+    text-shadow: 0 0 5px rgb(8, 8, 8);
+    letter-spacing: 5px;
 }
 
 .contact-email {
@@ -343,6 +348,11 @@ button[type="submit"] {
     background-color: #609154;
     display: inline-block;
     margin: 50px auto;
+    text-align: center;
+    padding-top: 60px;
+    color: #f1eeee;
+    text-shadow: 0 0 5px rgb(8, 8, 8);
+    letter-spacing: 5px;
 }
 
 .contact-skype {
@@ -354,6 +364,11 @@ button[type="submit"] {
     background-color: #5d75a8;
     display: inline-block;
     margin: 50px auto;
+    text-align: center;
+    padding-top: 60px;
+    color: #f1eeee;
+    text-shadow: 0 0 5px rgb(8, 8, 8);
+    letter-spacing: 5px;
 }
 
 .contact-skype:hover {
@@ -362,7 +377,7 @@ button[type="submit"] {
     border-radius: 180px;
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px;
-    background-color: darkened;
+    opacity: 0.8;
     display: inline-block;
     margin: 50px auto;
     border:solid 3px #e84610;
@@ -374,7 +389,7 @@ button[type="submit"] {
     border-radius: 180px;
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px;
-    background-color: #fafafa;
+    opacity: 0.8;
     display: inline-block;
     margin: 50px auto;
     border:solid 3px #e84610;
@@ -386,7 +401,7 @@ button[type="submit"] {
     border-radius: 180px;
     -moz-border-radius: 180px;
     -webkit-border-radius: 180px;
-    background-color: #fafafa;
+    opacity: 0.8;
     display: inline-block;
     margin: 50px auto;
     border:solid 3px #e84610;
