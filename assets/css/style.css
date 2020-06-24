@@ -294,17 +294,26 @@ h5 {
     box-shadow: 4px 6px 30px 1px rgba(97,94,97,1);
 }
 
-button[type="submit"] {
+.btn--red {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
     font-size: 24px;
     background-color: #e84610;
-    max-width: 40%;
+    min-width: 40%;
     position: relative;
     left: 30%;
     border: 1px solid #e84610;
     box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+    }
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #b82302;
+    border-color: #df4929;
+    color: white;
 }
 
 /* ----------------------------------------Contact*/
@@ -526,7 +535,7 @@ button[type="submit"] {
 
 @media(max-width: 360px) {
 
-    button[type="submit"] {
+    .btn--red {
         margin-top: 15px;
         margin-bottom: 20px;
         color: #fafafa;
