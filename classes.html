@@ -17,17 +17,20 @@
     <header>
         <div class="row no-gutters">
             <div class="col-md-12 logo"> 
-                <div class="col heading">
+                <!--LOGO-->
+                <div>
                     <h1 class="name">PARA PT</h1>
                     <h2 class="getfit uppercase">Get fit with the help of an expert!</h2>
                     <h2 class="title">FITNESS & NUTRITION</h2>
                     <h2 class="quote">- The body achieves what the mind believes -</h2>
                 </div>
+                <!--LOGO END-->
                 <div class="row no-gutters">
+                    <!--NAVBAR-->
                     <div class="col">
                         <ul id="nav" class="list-inline menucontainer">
                             <li class="col-12 col-sm-4 list-inline-item ui-menu-color-home menuitem">
-                                <a href="index.html" class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+                                <a href="index.html" class="hvr-sweep-to-bottom active"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
                             </li>
                             <li class="col-12 col-sm-4 list-inline-item ui-menu-color-classes menuitem">
                                 <a href="classes.html" class="hvr-sweep-to-bottom"><i class="fa fa-users" aria-hidden="true"></i><span>Classes & Services</span></a>
@@ -37,6 +40,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!--NAVBAR END-->
                 </div>
             </div>
         </div>
@@ -118,10 +122,10 @@
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">Share the news!</h5>
                 <p class="inline-block">
-                    Share your experience with others on our social sites and receive further discounts
+                    Share your experience with others on our social sites and receive 2 hours FREE!
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4"> <!--Social links-->
                 <h5 class="uppercase general-sub">Social</h5>
                 <ul class="list-inline social-links">
                     <li class="list-inline-item">
@@ -155,14 +159,15 @@
                         </a>
                     </li>
                 </ul>
-            </div>
-                        <div class="col-sm-4">
+            </div> <!--Social links End-->
+            <div class="col-sm-4">
                 <p class="inline-block copyright">
                     © 2020 - Para PT Fitness & Nutrition - All Rights Reserved.
                 </p>
             </div>
         </div>
     </footer>
+    <!--Sign up modal-->
     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -175,17 +180,27 @@
                 <div class="modal-body">
                     <form>
                         <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="First and last name">
+                        </div>
+                        <div class="form-group">
+                            <label for="class">Chosen class</label>
+                            <input type="class" class="form-control" id="class" placeholder="BMT, PT or NUTRITION">
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Date and time you'd like me to contact you</label>
+                            <input type="date" class="form-control" id="date" placeholder="Please pick a date and time you'd like me to contact you">
+                            <label for="time"></label>
+                            <input type="time" class="form-control" id="time" placeholder="">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone number</label>
+                            <input type="phone" class="form-control" id="phone" placeholder="Phone number">
+                        </div>
+                        <div class="form-group">
                             <label for="exampleInputEmail1">Email address</label>
                             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Repeat Password</label>
-                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
                         </div>
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
@@ -193,5 +208,6 @@
             </div>
         </div>
     </div>
+        <!--Sign up modal end-->
 </body>
 </html>
