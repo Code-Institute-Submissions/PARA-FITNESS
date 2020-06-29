@@ -436,10 +436,23 @@ h5 {
         display: none;
         padding: 0;
     }
-
 }
 
 @media(max-width: 767px) {
+
+        .btn--red {
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        color: #fafafa;
+        font-size: 24px;
+        background-color: #e84610;
+        min-width: 40%;
+        position: relative;
+        left: 30%;
+        border: 1px solid #e84610;
+        box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
+        }
 
         .logo {
         width: 100%;
