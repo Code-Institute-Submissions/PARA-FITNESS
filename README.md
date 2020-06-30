@@ -1,4 +1,4 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="assets/images/paragood2.jpg" style="margin: 0;">
 
 Welcome Ernie1980,
 
