@@ -72,9 +72,9 @@ h4 {
 
 .section-column {
     display: block;
-    padding-left: 100px;
+    padding-left: 50px;
     padding-top: 20px;
-    padding-right: 100px;
+    padding-right: 50px;
     float: none;
 }
 
@@ -421,6 +421,12 @@ h5 {
 
 @media(min-width: 768px) {
 
+    .contact-container {
+        background-color: #dddada;
+        padding: 0 10px;
+    }
+
+
     .menuitem span {
         display: block;
         width: 100%;
@@ -440,7 +446,7 @@ h5 {
 
 @media(max-width: 767px) {
 
-        .btn--red {
+    .btn--red {
         display: block;
         margin-top: 15px;
         margin-bottom: 20px;
@@ -452,9 +458,9 @@ h5 {
         left: 30%;
         border: 1px solid #e84610;
         box-shadow: 10px 10px 36px 0px rgba(0,0,0,0.75);
-        }
+    }
 
-        .logo {
+    .logo {
         width: 100%;
         background: url("../images/parasmall2.jpg");
         background-position: top;
@@ -466,7 +472,7 @@ h5 {
         -moz-transition: all .5s ease-in-out;
         -webkit-transition: all .5s ease-in-out;
         -o-transition: all .5s ease-in-out;
-        }
+    }
 
     .getfit {
         display: none;
@@ -547,7 +553,7 @@ h5 {
     }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 359px) {
 
     .btn--red {
         margin-top: 15px;
@@ -555,9 +561,10 @@ h5 {
         color: #fafafa;
         font-size: 24px;
         background-color: #e84610;
-        max-width: 80%;
+        width: 90%;
+        left: 5%;
         position: relative;
-        left: 10%;
+        display: block;
     }
 
 
